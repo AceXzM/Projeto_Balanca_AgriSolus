@@ -4,7 +4,7 @@
 
 O que é uma estação de monitoramente inteligente?
 É um produto utilizado em aviários para monitoramento de parâmetros como peso, umidade, CO2 e temperatura, todos estes sendo importantissímos no processo de criação de frangos.
-Casos estes parâmetros não sejam bem monitorados e controlados com os devidos equipamentos com precisão, podem ocasionar na morte dos mesmos.
+Casos estes parâmetros não sejam bem monitorados e controlados com os equipamentos precisos, podem ocasionar a morte dos mesmos.
 
 **ASPECTOS TÉCNICOS DO PRODUTO**
 
