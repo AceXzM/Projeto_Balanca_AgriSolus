@@ -1,0 +1,17 @@
+TypeScript: Iniciar Projeto
+1.npm init
+2.npm i -g typescript
+3.npm i typescript --save-dev
+4.Criar arquivo ts
+5.npx tsc --init --sourceMap --rootDir src --outDir dist
+6.debugger em Node.js
+7.Criar arquivo launch.json
+8.Seja feliz
+
+Para trabalhar com multiarquivos npx tsc
+Caso não consiga ver esse vídeo para abrir o projeto: 
+https://www.youtube.com/watch?v=_cbT-K1oHXM&t=59s
+
+type: "module"
+module: "nodenext"
+target: "esnext"
