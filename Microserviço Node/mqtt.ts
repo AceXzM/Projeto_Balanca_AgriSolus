@@ -12,7 +12,7 @@ interface DadoSensor {
   timestamp: FirebaseFirestore.FieldValue;  
 }
 
-const client = mqtt.connect("mqtt://192.168.2.25:1883");
+const client = mqtt.connect("mqtt://192.168.2.XX:1883"); //Ipv4 do dispostivo que estiver rodando o Broker + porta (porta padrão: 1883)
 const buffer: DadoSensor[] = [];
 const TAMANHO_BATCH = 50;
 const INTERVALO = 5000;
@@ -79,3 +79,4 @@ client.on("message", (topic, message) => {
 setInterval(mandaBatch, INTERVALO);
 
 }
+
