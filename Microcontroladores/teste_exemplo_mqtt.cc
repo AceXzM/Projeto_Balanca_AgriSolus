@@ -6,13 +6,13 @@
 #define RXD 16
 
 // Wi-Fi
-const char* ssid = "Educere ";
-const char* password = "Educere2023";
+const char* ssid = "nome_da_rede";
+const char* password = "senha_da_rede"; //Se o nome da rede ou senha tiver espaços devem ser considerados
 
 // MQTT Broker
-const char* mqtt_server = "192.168.2.25";
-const char* topico = "sensor/temperatura";
-const int mqtt_port = 1883;
+const char* mqtt_server = "192.168.2.XX"; //Ipv4 do localhost ou onde estiver rodando o BROKER
+const char* topico = "sensor/temperatura"; //Topico Broker
+const int mqtt_port = 1883; //Porta padrão MQTT
 
 char jsonMsg[200];
 int index1, index2, index3, index4;
