@@ -4,7 +4,7 @@ import { readFileSync } from "fs";
 
 if (!admin.apps.length) {
   const serviceAccount = JSON.parse(
-    readFileSync("./src/teste-bc360-firebase-adminsdk-fbsvc-f0a09b9b97.json", "utf8")
+    readFileSync("Credencial JSON, caso seu firestore for privado", "utf8")
   );
 
   admin.initializeApp({
@@ -14,3 +14,4 @@ if (!admin.apps.length) {
 
 export const banco = admin.firestore();
 export default admin;
+
