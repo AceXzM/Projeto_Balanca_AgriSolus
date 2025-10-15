@@ -20,11 +20,17 @@ Após armazenado o dado está disponível para ser captado por uma **API**, da a
 <img width="189" height="249" alt="image" src="https://github.com/user-attachments/assets/b899a044-33de-44c6-997a-d9dbebd007ae" />
 
 
+
 **COMO USAR OS CÓDIGOS?**
+
 Softwares utilizados:
+
 Arduino IDE - para ESP32.
+
 Eclipse Mosquitto - para Protocolo MQTT.
+
 VsCode - para o Microserviço em Node.js, API e Servidor.
+
 Firebase - para DB em nuvem.
 
 Todo passo a passo de como compilar e debbugar o código em node.js está disponível na branch "BACKEND".
