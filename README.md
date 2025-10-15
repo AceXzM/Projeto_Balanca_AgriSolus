@@ -1,11 +1,13 @@
 **PROJETO DE ENGENHARIA REVERSA ESTAÇÃO DE MONITORAMENTO INTELIGENTE**
 
 **SOBRE O PRODUTO**
+
 O que é uma estação de monitoramente inteligente?
 É um produto utilizado em aviários para monitoramento de parâmetros como peso, umidade, CO2 e temperatura, todos estes sendo importantissímos no processo de criação de frangos.
 Casos estes parâmetros não sejam bem monitorados e controlados com os devidos equipamentos com precisão, podem ocasionar na morte dos mesmos.
 
 **ASPECTOS TÉCNICOS DO PRODUTO**
+
 Duas placas eletrônicas, sendo uma para alimentação contendo um transformador de 110-220V/24V, juntamente com uma ponte diodos que servem para alimentar a placa principal.
 A placa principal contém dois microcontroladores, sendo o primeiro um **STM32G070**, responsável por captar dados dos sensores como um sensor **IR de CO2 e Temperatura**, juntamente com um de **umidade** e uma **célula de carga de 25kg**.
 Entre estes microcontroladores temos um comunicação por meio do **protocolo UART** (compartilhamento de GND's), dos quais os mesmos trocam dados dos sensores, e pelo **protocolo I2C**
@@ -14,7 +16,9 @@ Após isso temos um "Microserviço" em **node.js**, em **TypeScript** que se tor
 Após armazenado o dado está disponível para ser captado por uma **API**, da arquitetura **REST**, que espera a requisição de um aplicativo em **FLUTTER** e entrega o dado.
 
 **FLUXOGRAMA BÁSICO DO PROJETO**
+
 <img width="189" height="249" alt="image" src="https://github.com/user-attachments/assets/b899a044-33de-44c6-997a-d9dbebd007ae" />
+
 
 **COMO USAR OS CÓDIGOS?**
 Softwares utilizados:
